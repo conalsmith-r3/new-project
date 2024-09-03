@@ -28,7 +28,6 @@ pluginManagement {
     }
 
     plugins {
-        id("com.gradle.common-custom-user-data-gradle-plugin") version extractVersion("gradle-data-plugin")
         id("org.gradle.toolchains.foojay-resolver-convention") version extractVersion("foojay-resolver-convention-plugin")
         id("com.r3.gradle.standards.kotlin-common") version extractVersion("kotlin-common-plugin")
         id("com.r3.gradle.standards.publication.maven-publication") version extractVersion("maven-publication-plugin")
@@ -36,7 +35,6 @@ pluginManagement {
 }
 
 plugins {
-    id("com.gradle.common-custom-user-data-gradle-plugin")
     id("org.gradle.toolchains.foojay-resolver-convention")
 }
 

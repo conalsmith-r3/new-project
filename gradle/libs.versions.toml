@@ -1,8 +1,4 @@
 [versions]
-# Production dependency versions
-log4j = "2.23.1"
-slf4j = "2.0.16"
-
 # Test dependency versions
 assertj = "3.26.3"
 junit = "5.11.0"
@@ -10,7 +6,6 @@ mockk = "1.13.12"
 
 # Build dependency versions
 foojay-resolver-convention-plugin = "0.8.0"
-gradle-data-plugin = "2.0.2"
 kotlin-common-plugin = "0.2.4"
 maven-publication-plugin = "0.2.7-SNAPSHOT"
 
