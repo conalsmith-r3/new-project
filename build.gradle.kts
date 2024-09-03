@@ -4,7 +4,7 @@ plugins {
     id("com.r3.gradle.standards.publication.maven-publication")
 }
 
-group = "org.example"
+group = "com.r3.example"
 version = "1.0-SNAPSHOT"
 
 repositories {
@@ -23,5 +23,13 @@ repositories {
     mavenCentral()
 }
 
-group = "com.r3.corda.template"
+group = "com.r3.example"
 version = "0.0.1-SNAPSHOT"
+
+publishing {
+    publications {
+        create<MavenPublication>("mavenJava") {
+            from(components["java"])
+        }
+    }
+}
